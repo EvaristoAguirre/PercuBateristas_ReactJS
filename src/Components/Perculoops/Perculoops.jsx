@@ -34,7 +34,7 @@ const Perculoops = () => {
                         </div>
                         
                         <div class="item-descarga">
-                            <button>Descarga</button>
+                            <button className='btn-descarga'>Descarga</button>
                         </div>
                         
                         <div class="item-duracion">
@@ -77,6 +77,97 @@ const Perculoops = () => {
                             <p>1:44</p>
                         </div>
                     </div>
+
+                    <div class="item_4">
+                        <div class="item-play">
+                            <button>Play</button>
+                        </div>
+
+                        <div class="item-nombre">
+                            <p>Nombre canción 4</p>
+                        </div>
+                        
+                        <div class="item-descarga">
+                            <button>Descarga</button>
+                        </div>
+                        
+                        <div class="item-duracion">
+                            <p>5:24</p>
+                        </div>
+                    </div>
+
+                    <div class="item_5">
+                        <div class="item-play">
+                            <button>Play</button>
+                        </div>
+
+                        <div class="item-nombre">
+                            <p>Nombre canción 5</p>
+                        </div>
+                        
+                        <div class="item-descarga">
+                            <button>Descarga</button>
+                        </div>
+                        
+                        <div class="item-duracion">
+                            <p>3:54</p>
+                        </div>
+                    </div>
+
+                    <div class="item_6">
+                        <div class="item-play">
+                            <button>Play</button>
+                        </div>
+
+                        <div class="item-nombre">
+                            <p>Nombre canción 6</p>
+                        </div>
+                        
+                        <div class="item-descarga">
+                            <button>Descarga</button>
+                        </div>
+                        
+                        <div class="item-duracion">
+                            <p>1:44</p>
+                        </div>
+                    </div>
+
+                    <div class="item_7">
+                        <div class="item-play">
+                            <button>Play</button>
+                        </div>
+
+                        <div class="item-nombre">
+                            <p>Nombre canción 7</p>
+                        </div>
+                        
+                        <div class="item-descarga">
+                            <button>Descarga</button>
+                        </div>
+                        
+                        <div class="item-duracion">
+                            <p>3:54</p>
+                        </div>
+                    </div>
+
+                    <div class="item_8">
+                        <div class="item-play">
+                            <button>Play</button>
+                        </div>
+
+                        <div class="item-nombre">
+                            <p>Nombre canción 8</p>
+                        </div>
+                        
+                        <div class="item-descarga">
+                            <button>Descarga</button>
+                        </div>
+                        
+                        <div class="item-duracion">
+                            <p>1:44</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
