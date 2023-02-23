@@ -19,6 +19,7 @@ const Perculoops = () => {
                     <div className='perculoops-reproductor-duracion'></div>
                     <div className='perculoops-reproductor-controladores'>
                         
+                    <button className='btn-stop'>Stop</button>
                     <button className='btn-play'>Play</button>
                     <button className='btn-pausa'>Pausa</button>
                     </div>
