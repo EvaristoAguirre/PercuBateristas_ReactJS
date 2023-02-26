@@ -1,6 +1,6 @@
 .hero {
     background-image:url(./hero-fondo-banner.svg);
-    height: 89vh;
+    height: 84vh;
     display: flex;
     justify-items: center;
     align-items: center;
