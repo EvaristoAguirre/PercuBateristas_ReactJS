@@ -85,7 +85,10 @@
 
 
 @media only screen and (max-width: 991px) {
- 
+    
+    /* .hero {
+        opacity: 0.3;
+    } */
     .hero.abierto {
         opacity: 0.3;
     }

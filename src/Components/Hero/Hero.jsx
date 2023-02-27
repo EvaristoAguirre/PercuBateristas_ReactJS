@@ -1,11 +1,13 @@
 import React from 'react';
 import './Hero.css'
+import { useState } from 'react';
 
 
-const Hero = (abierto) => {
+const Hero = ({isActive}) => {
+    console.log(isActive);
     return(
         <>
-         <div id="seccion-hero" className={`hero ${abierto && "abierto"}`}>
+         <div id="seccion-hero" className={`hero ${ isActive ? 'abierto' : '' }`}>
             <div className='container container-hero'>
                <div className='hero-texto'>
                     <div className='hero-texto-mov'>

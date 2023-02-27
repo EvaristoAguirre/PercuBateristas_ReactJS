@@ -123,6 +123,10 @@
     transition: .4seg all linear;
 }
 
+.btn {
+    visibility: none;
+}
+
 
 
 
@@ -136,50 +140,66 @@
 
 @media only screen and (max-width: 991px) {
 
-    .navbar-contenedor{
-        background-color: aqua;
+    /* .navbar-contenedor.abierto {
+        box-shadow: 15vh 0 0 100vh rgba(0,0,0,0.5);
 
+    } */
+
+    .nav-logueo {
+        width: 45%;
+    }
+
+   
+    .btn-inicio, .btn-crear{
+        width: 60%;
+        font-size: .8rem;
     }
 
     .nav-logo-texto{
         font-size: 1.6rem;
         margin: 0 auto;
     }
-  
-
-    .btn-inicio, .btn-crear{
-        width: 60%;
-        font-size: 1rem;
-    }
 
     .nav-lista{
         /* display: none; */
-        width: 40%;
+        width: 60%;
         position: absolute;
-        top: 11vh;
+        top: 9vh;
         right: 0;
-        background: #5b5b5b;
+        background: var(--color-secundario-0);
         display: flex;
         flex-direction: column;
-        /* transform:translateY(-100%); */
+        transform:translateX(100%);
         transition: 0.3s ease all;
         z-index: 10;
         padding: 0;
+        
+        
     }
     .nav-lista li a {
         font-size: 1.2rem;
+        color: var(--color-neutro-darkness);
     }
     .nav-lista.abierto {
-        /* transform: translateY(0) !important; */
+        transform: translateX(0%) !important;
     }
     .btn-hamburguesa {
         display: block;
-        /* display: flex; */
+        display: flex;
         justify-content: flex-end;
-        flex-direction: column;
+        
         font-size: 2rem;
+        visibility: visible;
+        /* opacity: 1;
+        background-color: #b95c40; */
     }
 
+    .btn-hamburguesa-icono {
+        visibility: visible;
+        opacity: 1;
+        color: var(--color-neutro-darkness);
+    }
+    
 
 }
 

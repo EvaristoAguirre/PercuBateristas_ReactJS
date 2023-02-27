@@ -6,8 +6,11 @@ import {Hero} from '../../Components/Hero/Hero'
 
 const Navbar = () => {
 
-    const [mostrarHamb, setMostrarHamb] = useState (true);
+    const [mostrarHamb, setMostrarHamb] = useState (false);
 
+    const isActive = () => {
+        setMostrarHamb(!mostrarHamb);
+    }
 
     return(
         <>
@@ -37,7 +40,7 @@ const Navbar = () => {
                     </div>
                         
                     <div className='nav-contenedor-lista'>
-                        <ul className={`nav-lista ${setMostrarHamb && "abierto"}`}>
+                        <ul className={`nav-lista ${mostrarHamb ? "abierto" : " "}`}>
                                 <li><a href="#seccion-hero">Home</a></li>
                                 <li><a href="#seccion-nosotrxs">Nosotrxs</a></li>
                                 <li><a href="#seccion-perculoops">Perculoops</a></li>
@@ -48,16 +51,14 @@ const Navbar = () => {
                          </ul>
                     </div>
                         
-                    <div className={`btn-hamburguesa ${setMostrarHamb && "abierto"}`} onClick={()=>{setMostrarHamb(!setMostrarHamb)}}>
-                        
-                        <div className=''><i className="bi-list btn-hamburguesa-icono"></i></div>
-                        
+                    <div className="btn-hamburguesa" >
+                        <button className='btn'onClick={isActive}><i className="bi-list btn-hamburguesa-icono"></i></button>
                     </div>                   
                 
             </div>
 
         </nav>
-        <Hero abierto={mostrarHamb}/>
+        <Hero isActive={mostrarHamb}/>
         
         </>
         
