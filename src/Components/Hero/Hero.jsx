@@ -18,8 +18,8 @@ const Hero = ({isActive}) => {
                     <a className='hero-btn-a' href='#seccion-nosotrxs'><button className='hero-btn'>Nosotrxs</button></a> 
                 </div>
 
-                <div className='hero-imagen'>
-                    <img src="./hero-muestra.jpg" alt="hero-muestra" />
+               <div className='hero-imagen'>
+                    <img src="./D-hero.jpg" alt="Facundo Berjeli" />
                 </div> 
             </div>
             

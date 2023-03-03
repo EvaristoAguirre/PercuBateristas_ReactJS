@@ -107,6 +107,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
@@ -129,14 +130,16 @@
 }
 
 .tarjeta_B-redes {
+    width: 45%;
     margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .tarjeta_B-redes a{
     margin-left: 1rem;
-    
-    
+    color: rgba(111, 111, 111, 0.99);
+    font-size: 2rem;
 }

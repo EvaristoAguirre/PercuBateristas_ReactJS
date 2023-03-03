@@ -36,6 +36,7 @@
 }
 
 .nav-redes {
+
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
@@ -89,6 +90,9 @@
     display: flex;
     /* justify-content:stretch; */
     gap: .6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .btn-inicio {
     width: 40%;
@@ -128,11 +132,6 @@
 }
 
 
-
-
-
-
-
 /*---------------------  Media queries - Responsive  -------------------------*/
 
 /*----------------- Medium devices -------------------------*/
@@ -140,13 +139,9 @@
 
 @media only screen and (max-width: 991px) {
 
-    /* .navbar-contenedor.abierto {
-        box-shadow: 15vh 0 0 100vh rgba(0,0,0,0.5);
-
-    } */
 
     .nav-logueo {
-        width: 45%;
+        width: 35%;
     }
 
    
@@ -161,7 +156,7 @@
     }
 
     .nav-lista{
-        /* display: none; */
+        display: none;
         width: 60%;
         position: absolute;
         top: 9vh;
@@ -205,7 +200,12 @@
 
 
 
+@media only screen and (min-width: 767px ) and (max-width: 991px) {
+    .navbar {
+        background-color: rgb(243, 251, 32);
 
+    }
+}
 
 
 
@@ -219,26 +219,12 @@
 /*----------------- Small devices -------------------------*/
 
 
-/* @media only screen and (min-width: 576px ) and (max-width: 767px) {
+@media only screen and (min-width: 576px ) and (max-width: 767px) {
     .navbar {
         background-color: rgb(226, 47, 246);
-    }
-    
-    .nav-logo-texto{
-        font-size: 1.7rem;
-    }
 
-    .nav-lista{
-        display: none;
-
-    }
-
-    .btn-hamburguesa {
-        display: inline;
-        justify-content: center;
-    }
-
-} */
+}
+}
 
 /*----------------- X Small devices -------------------------*/
 

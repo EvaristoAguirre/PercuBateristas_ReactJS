@@ -18,9 +18,9 @@ const Navbar = () => {
                <div className='navbar-contenedor-renglon'>
                     <div className="nav-redes">
                                 
-                        <div><a href=""><i className="bi-facebook btn-facebook"></i></a></div>
-                        <div><a href=""><i className="bi-instagram btn-instagram"></i></a></div>
-                        <div><a href=""><i className="bi-youtube btn-youtube"></i></a></div>
+                        <div><a href="https://www.facebook.com/facuberjeli98?mibextid=ZbWKwL" target={'_blank'} rel="noreferrer"><i className="bi-facebook btn-facebook"></i></a></div>
+                        <div><a href="https://instagram.com/facundoberjeli?igshid=ZDdkNTZiNTM=" target={'_blank'} rel="noreferrer"><i className="bi-instagram btn-instagram"></i></a></div>
+                        <div><a href="https://youtube.com/@percubateristasonline" target={'_blank'} rel="noreferrer"><i className="bi-youtube btn-youtube"></i></a></div>
                                 
                     </div> 
                 

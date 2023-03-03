@@ -13,47 +13,47 @@ const Galeria = () => {
 
                 <div className='galeria-carrusell'>
 
-                <div id="carouselExampleControls" className="carousel-products slide" data-bs-ride="carousel">
+                <div id="carouselExampleControls" className="carousel-products " data-bs-ride="carousel">
                         <div className="cards-wrapper">
 
                             <div className="carousel__container">
                                 <div id="item-producto" className="carousel__item">
-                                    <img className="carousel__item__img" src="./hero-muestra.jpg" alt=""/>
+                                    <img className="carousel__item__img" src="./D-galeria-1.jpg" alt=""/>
                                     <div className="carousel__item__details">
                                         <div>
                                             <p className="carousel__item__details__title" text="Nombre">Foto 1</p>
                                             <p className="carousel__item__details__subtitle" text="Descripcion">Tocando en el recital de Carnaval 2021</p>
-                                            <a className="a-vermas" href="">Ver más</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div id="item-producto" className="carousel__item">
-                                    <img className="carousel__item__img" src="./muestra_A.jpg" alt=""/>
+                                    <img className="carousel__item__img" src="./D-galeria-2.jpg" alt=""/>
                                     <div className="carousel__item__details">
                                         <div>
                                             <p className="carousel__item__details__title" text="Nombre"></p>
                                             <p className="carousel__item__details__subtitle" text="Descripcion"></p>
-                                            <a className="a-vermas" href="">Ver más</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div id="item-producto" className="carousel__item">
-                                    <img className="carousel__item__img" src="./muestra_B.jpg" alt=""/>
+                                    <img className="carousel__item__img" src="./D-galeria-3.jpg" alt=""/>
                                     <div className="carousel__item__details">
                                         <div>
                                             <p className="carousel__item__details__title" text="Nombre"></p>
                                             <p className="carousel__item__details__subtitle" text="Descripcion">Hola Mundo</p>
-                                            <a className="a-vermas" href="">Ver más</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div id="item-producto" className="carousel__item">
-                                    <img className="carousel__item__img" src="./muestra_A.jpg" alt=""/>
+                                    <img className="carousel__item__img" src="./D-galeria-4.jpg" alt=""/>
                                     <div className="carousel__item__details">
                                         <div>
                                             <p className="carousel__item__details__title" text="Nombre"></p>
                                             <p className="carousel__item__details__subtitle" text="Descripcion"></p>
-                                            <a className="a-vermas" href="">Ver más</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
