@@ -13,9 +13,9 @@
 }
 
 .nosotrxs-indice h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: var(--tipografia-principal);
-    padding-top: .2rem;
+    padding-top: .4rem;
 }
 
 .nosotrxs-indice-semiCirculo {
@@ -89,23 +89,10 @@
     text-justify:distribute-all-lines;
     line-height: 1.5;
     text-align:justify;
-    
 
 }
-
-
-
-
-
 
 /*  Media queries - Responsive  */
-
-/*----------------- Large devices -------------------------*/
-
-@media only screen and (min-width: 992px ) and (max-width: 1200px) {
-        
-    
-}
 
 /*----------------- Medium devices -------------------------*/
 
@@ -146,7 +133,52 @@
         width: 30%;
     }
 
+    .nosotrxs-tarjeta {
+        width: 80%;
+        height: 80vh;
+        border-radius: .75rem;
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        align-self: center;
+        justify-content: center;
+        gap: .5rem;
+       
+    }
+
+    .nosotrxs-tarjeta-izq, .nosotrxs-tarjeta-der {
+        width: 100%;
+        height: 50vh;
+        align-items: center;
+        margin: .5rem 0;
+        padding: 1.7rem;
+    }
+
+    .nosotrxs-tarjeta-izq p {
+        width: 100%;
+        font-size: 1rem;
+        text-align:center;
+        
+    }
+
+    .nosotrxs-tarjeta-der p {
+        width: 100%;
+        font-size: .8rem;
+        text-align:center;
+        
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
 
 /*----------------- X-M  Small devices -------------------------*/
 

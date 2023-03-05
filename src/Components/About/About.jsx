@@ -24,7 +24,7 @@ const About = () => {
                 </div>
                 
                 <div className='nosotrxs-tarjeta-der'>
-                    <p>Desde hace un par de años me dedico a explorar las distintas músicas de Latinoamérica con los tambores, trabajando como músico sesionista y docente. Hoy quiero utilizar mi conocimiento para ayudar a otras personas, es porque ésto que creé PercuBateristasOnLine, un espacio dnde queremos acercar la percusión a todxs.
+                    <p>Desde hace un par de años me dedico a explorar las distintas músicas de Latinoamérica con los tambores, trabajando como músico sesionista y docente. Hoy quiero utilizar mi conocimiento para ayudar a otras personas, es porque ésto que creé PercuBateristasOnLine, un espacio donde queremos acercar la percusión a todxs.
                     <br />
                     <br />
                    

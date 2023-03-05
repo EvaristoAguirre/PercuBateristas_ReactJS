@@ -50,16 +50,10 @@
         /* background-color: lightcoral; */
     
     }
-
-    .cards-wrapeer {
-       
-    }
     
     .carousel__container {
 
         white-space: nowrap;
-        /* margin: 0 auto; */
-        /* padding-bottom: 10px; */
         padding: 3rem;
 
     }
@@ -67,8 +61,6 @@
     .carousel__item {
         /* background-color: #135cb1; */
         width: 25%;
-        /* height: 70%; */
-        /* height: 250px; */
         border-radius: 20px;
         overflow: hidden;
         margin-right: 10px;
@@ -78,6 +70,8 @@
         transform-origin: center;
         position: relative;
     }
+
+
     
     .carousel__item:hover~.carousel__item {
         transform: translate3d(100px, 0, 0);

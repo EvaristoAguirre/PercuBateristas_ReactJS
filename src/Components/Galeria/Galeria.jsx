@@ -28,11 +28,11 @@ const Galeria = () => {
                                     </div>
                                 </div>
                                 <div id="item-producto" className="carousel__item">
-                                    <img className="carousel__item__img" src="./D-galeria-2.jpg" alt=""/>
+                                    <img className="carousel__item__img" src="./D-galeria-nueva.jpg" alt=""/>
                                     <div className="carousel__item__details">
                                         <div>
                                             <p className="carousel__item__details__title" text="Nombre"></p>
-                                            <p className="carousel__item__details__subtitle" text="Descripcion"></p>
+                                            <p className="carousel__item__details__subtitle" text="Descripcion">Hola Mundo</p>
                                             
                                         </div>
                                     </div>

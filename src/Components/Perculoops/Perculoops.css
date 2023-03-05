@@ -45,11 +45,12 @@
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
+    /* padding: 2rem ; */
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items:center;
     
 }
 
@@ -59,9 +60,15 @@
     font-family: var(--tipografia-principal);
 }
 
+.perculoops-reproductor-controladores {
+  display: flex;
+  gap: 1rem;
+}
+
 .btn-stop, .btn-pausa, .btn-play {
   border:none;
   background: none;
+
 }
 
 
@@ -103,7 +110,7 @@
 
 .item-duracion { grid-area: item-duracion; }
 
-.item_1  {  
+.item_1, .item_2, .item_3, .item_4, .item_5, .item_6, .item_7, .item_8 {  
   border-bottom: 2px solid #dad6d6;
   border-radius: 2px;
 
@@ -114,110 +121,41 @@
   grid-auto-flow: row;
   grid-template-areas:
     "item-play item-nombre item-duracion item-descarga ";
-  grid-area: item_1;
-  
 }
 
+.item_1 {  
+  grid-area: item_1;
+}
 
 .item_2 {
-  border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
-    grid-area: item_2;
+  grid-area: item_2;
   }
   
 .item_3 {
-  border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
-    grid-area: item_3;
+  grid-area: item_3;
   }
   
-  .item_4 {
-    border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
-    grid-area: item_4;
+.item_4 {
+  grid-area: item_4;
   }
 
-  .item_5 {
-    border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
+.item_5 {
     grid-area: item_5;
   }
     
-  .item_6 {
-    border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
+.item_6 {
     grid-area: item_6;
   }
 
-  .item_7 {
-    border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
+.item_7 {
     grid-area: item_7;
   }
 
-  .item_8 {
-    border-bottom: 2px solid #dad6d6;
-  border-radius: 2px;
-
-  display: grid;
-  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "item-play item-nombre item-duracion item-descarga ";
+.item_8 {
     grid-area: item_8;
   }
 
-  .item-play {
+.item-play {
   
   }
 
