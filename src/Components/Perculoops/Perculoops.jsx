@@ -16,12 +16,10 @@ const Perculoops = () => {
             </div>
             <div className='contenedor-reproductor'>
                 <div className='perculoops-reproductor'>
-                    <h4>Nombre de canción</h4>
                     
-                    {/* <div className='perculoops-reproductor-progreso'></div>
-                    <div className='perculoops-reproductor-duracion'></div> */}
-                    
-                    <div className='perculoops-reproductor-controladores'>
+                    <div className='reproductor-superior'>
+                        <h4>Nombre de canción</h4>
+                        <div className='perculoops-reproductor-controladores'>
                         
                         <button className='btn-stop'>
                             <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,8 +41,20 @@ const Perculoops = () => {
                             </svg>
 
                         </button>
+                    
+                        </div>
+                    </div>
+                    
+                    {/* <div className='perculoops-reproductor-progreso'></div>
+                    <div className='perculoops-reproductor-duracion'></div> */}
+                    
+                    
+                    <div className='perculoops-reproductor-btn-sesion'>
+                        <h5>Iniciá sesión para descargar los audios. Si no tenés cuenta, create una:</h5>
+                        <button className='btn-crear btn-perculoops'>Crear usuarix</button>
                     </div>
                 </div>
+
                 <div class="perculoops-lista_de_temas">
                     <div class="item_1">
                         <div class="item-play">
@@ -83,14 +93,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 2</p>
                         </div>
-                        
+
+                        <div class="item-duracion">
+                            <p>3:54</p>
+                        </div>
+
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>3:54</p>
-                        </div>
+                        
                     </div>
 
                     <div class="item_3">
@@ -106,14 +118,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 3</p>
                         </div>
-                        
+
+                        <div class="item-duracion">
+                            <p>1:44</p>
+                        </div>
+
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>1:44</p>
-                        </div>
+                        
                     </div>
 
                     <div class="item_4">
@@ -129,14 +143,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 4</p>
                         </div>
-                        
+
+                        <div class="item-duracion">
+                            <p>5:24</p>
+                        </div>
+
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>5:24</p>
-                        </div>
+                        
                     </div>
 
                     <div class="item_5">
@@ -152,14 +168,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 5</p>
                         </div>
-                        
+
+                        <div class="item-duracion">
+                            <p>3:54</p>
+                        </div>
+
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>3:54</p>
-                        </div>
+                        
                     </div>
 
                     <div class="item_6">
@@ -175,14 +193,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 6</p>
                         </div>
-                        
+
+                        <div class="item-duracion">
+                            <p>1:44</p>
+                        </div>
+
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>1:44</p>
-                        </div>
+                        
                     </div>
 
                     <div class="item_7">
@@ -198,14 +218,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 7</p>
                         </div>
-                        
+
+                        <div class="item-duracion">
+                            <p>3:54</p>
+                        </div>
+
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>3:54</p>
-                        </div>
+                        
                     </div>
 
                     <div class="item_8">
@@ -221,14 +243,16 @@ const Perculoops = () => {
                         <div class="item-nombre">
                             <p>Nombre canción 8</p>
                         </div>
+
+                        <div class="item-duracion">
+                            <p>1:44</p>
+                        </div>
                         
                         <div class="item-descarga">
                             <button className='btn-descarga'>Descargar <i className="bi bi-download"></i></button>
                         </div>
                         
-                        <div class="item-duracion">
-                            <p>1:44</p>
-                        </div>
+                        
                     </div>
 
                 </div>

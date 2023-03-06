@@ -40,7 +40,7 @@
 }
 
 .perculoops-reproductor {
-    background: linear-gradient(to bottom, rgb(0, 4, 17, .8),rgba(255, 255, 255,0.6) ), url(./D-perculoops.jpg);
+    background: linear-gradient(to bottom, rgb(0, 4, 17, .8),rgba(255, 255, 255,0.4) ), url(./D-perculoops.jpg);
     width: 50%;
     background-size: cover;
     background-position: center;
@@ -49,9 +49,16 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     
+}
+
+.reproductor-superior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .perculoops-reproductor h4 {
@@ -63,6 +70,7 @@
 .perculoops-reproductor-controladores {
   display: flex;
   gap: 1rem;
+  /* background-color: #b78780; */
 }
 
 .btn-stop, .btn-pausa, .btn-play {
@@ -71,7 +79,40 @@
 
 }
 
+.perculoops-reproductor-btn-sesion {
+  width: 95%;
+  height: 50%;
+  padding: 1rem;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  align-items: center;
+  
+}
 
+.perculoops-reproductor-btn-sesion h5{
+  font-size: 1.5rem;
+  color: var(--color-neutro-lightness);
+  font-family: var(--tipografia-principal);
+}
+
+.btn-perculoops {
+  width: 25%;
+  font-family: var(--tipografia-principal);
+  font-size: 1.2rem;
+  background-color: #a4554d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+.btn-crear:hover {
+  transform: scale(1.1);
+  transition: .4seg all linear;
+}
+
+
+
+/*-------------------     Estilos lista de temas      --------------*/
 
 .perculoops-lista_de_temas {
     width: 50%;
@@ -102,7 +143,12 @@
         "item_8";
 }
 
-.item-nombre { grid-area: item-nombre; }
+.item-nombre { 
+  grid-area: item-nombre; 
+  align-self: flex-end;
+  align-items: end;
+  justify-self: start;
+}
 
 .item-descarga { grid-area: item-descarga; }
 
@@ -171,3 +217,143 @@
   .btn-descarga i { 
     padding-left: 5px;
   }
+
+
+/*---------------------  Media queries - Responsive  -------------------*/
+
+
+
+@media only screen and (max-width: 991px) {
+
+  .perculoops-indice h2 {
+    font-size: 1.8rem;
+}
+
+}
+
+
+/*----------------- Medium devices -------------------------*/
+
+
+@media only screen and (min-width: 767px ) and (max-width: 991px) {
+
+  .btn-descarga {
+    font-size: 1rem;
+    width: 100px;
+    background-color: #b78780;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 12px;
+    color: rgb(20, 20, 20);
+  }
+  
+  .btn-descarga i { 
+    padding-left: 5px;
+  }
+  
+  .btn-perculoops {
+    width: 35%;
+  }
+  
+  }
+
+/*----------------- Small devices -------------------------*/
+
+@media only screen and (max-width: 767px) {
+
+
+  .reproductor-superior h4{
+    font-size: 2rem;
+  }
+
+  .item-play .btn-play svg{
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .item-nombre p, .item-duracion p {
+    font-size: 1rem;
+  }
+  
+  .btn-descarga {
+    font-size: .8rem;
+    width: 74px;
+    background-color: #b78780;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 5px;
+    color: rgb(20, 20, 20);
+  }
+  
+  .btn-descarga i { 
+    padding-left: 3px;
+  }
+  
+  .btn-perculoops {
+    width: 45%;
+    font-size: 1rem;
+  }
+
+  .perculoops-reproductor-btn-sesion h5 {
+    font-size: 1rem;
+    align-self: center;
+  }
+
+  .perculoops-lista_de_temas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem;
+  }
+
+  .item_1, .item_2, .item_3, .item_4, .item_5, .item_6, .item_7, .item_8 {
+    padding: 0rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: end;
+    padding-bottom: .2rem;
+    margin: 0;
+    width: 100%;
+    
+
+  }
+
+  .item_8 {
+    border-bottom: none;
+    
+  }
+
+  .item-nombre {
+    height: 1rem;
+    padding: 0;
+    margin-bottom: .2rem;
+  
+  }
+
+  .item-duracion {
+    height: 1rem;
+    padding: 0rem;
+    margin-bottom: .2rem;
+  }
+
+  .item-descarga {
+    padding: 0rem;
+    margin-top: .5rem;
+    
+  }
+  .item-descarga i {
+    padding-bottom: 0rem;
+  }
+
+  .item-play {
+    padding: 0rem;
+  }
+
+  
+}
+
+
+
+
+@media only screen and (max-width: 575px) {}
