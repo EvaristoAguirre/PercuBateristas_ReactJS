@@ -21,26 +21,26 @@ const Perculoops = () => {
                         <h4>Nombre de canción</h4>
                         <div className='perculoops-reproductor-controladores'>
                         
-                        <button className='btn-stop'>
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="17.5" cy="17.5" r="17.5" fill="#D96153" fill-opacity="0.8"/>
-                                <rect x="9" y="9" width="17" height="17" fill="white"/>
-                            </svg>
-                        </button>
-                        <button className='btn-play'>
-                            <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="24.0149" cy="23.0353" r="23.0353" fill="#D96153" fill-opacity="0.8"/>
-                                <path d="M39.2515 23.0989L16.9505 36.896L16.6307 9.83267L39.2515 23.0989Z" fill="white"/>
-                            </svg>
-                        </button>
-                        <button className='btn-pausa'>
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="17.5" cy="17.5" r="17.5" fill="#D96153" fill-opacity="0.8"/>
-                                <line x1="12.5" y1="8" x2="12.5" y2="28" stroke="white" stroke-width="3"/>
-                                <line x1="22.5" y1="8" x2="22.5" y2="28" stroke="white" stroke-width="3"/>
-                            </svg>
+                            <button className='btn-stop'>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#D96153" fill-opacity="0.8"/>
+                                    <rect x="9" y="9" width="17" height="17" fill="white"/>
+                                </svg>
+                            </button>
+                            <button className='btn-play'>
+                                <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="24.0149" cy="23.0353" r="23.0353" fill="#D96153" fill-opacity="0.8"/>
+                                    <path d="M39.2515 23.0989L16.9505 36.896L16.6307 9.83267L39.2515 23.0989Z" fill="white"/>
+                                </svg>
+                            </button>
+                            <button className='btn-pausa'>
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#D96153" fill-opacity="0.8"/>
+                                    <line x1="12.5" y1="8" x2="12.5" y2="28" stroke="white" stroke-width="3"/>
+                                    <line x1="22.5" y1="8" x2="22.5" y2="28" stroke="white" stroke-width="3"/>
+                                </svg>
 
-                        </button>
+                            </button>
                     
                         </div>
                     </div>

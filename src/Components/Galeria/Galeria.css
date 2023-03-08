@@ -1,5 +1,7 @@
 .galeria {
     background-image:url(./galeria-fondo-banner.svg);
+    background-repeat: no-repeat;
+    background-color: var(--color-primario-C);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -26,7 +28,7 @@
 }
 
 .galeria-indice-semiCirculo h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 /* clases para el carrusell*/
@@ -186,17 +188,7 @@
 /*----------------- Medium devices -------------------------*/
 
 
-@media only screen and (min-width: 767px ) and (max-width: 991px) {
-
-    .carousel__item {
-        height: 50vh;
-    }
-
-}
-
-/*----------------- Small devices -------------------------*/
-
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 576px ) and (max-width: 991px) {
 
     .galeria-indice-semiCirculo {
         width: 30%;
@@ -231,9 +223,78 @@
 
 }
 
-@media only screen and (max-width: 575px) {
+/*----------------- Small devices -------------------------*/
 
+/* @media only screen and (max-width: 767px) {
+
+    .galeria-indice-semiCirculo {
+        width: 30%;
+        height: 6rem;
+    }
+    
     .galeria-indice-semiCirculo h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .carousel-products {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .carousel__container {
+        padding: .3rem;
+        display: flex;
+        flex-direction:row;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .carousel__item {
+        width: 45%;
+        height: 39vh;
+    }
+
+} */
+
+@media only screen and (max-width: 575px) {
+    .galeria-indice{
+      height: 5vh;  
+    }
+    
+    .galeria-indice-semiCirculo {
+        width: 35%;
+        height: 6rem;
+    }
+    
+    .galeria-indice-semiCirculo h2 {
+        font-size: 1.6rem;
+    }
+
+    .carousel-products {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;        
+    }
+
+    .carousel__container {
+        width: 100%;
+        padding: .3rem;
+        display: flex;
+        flex-direction:row;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .carousel__item {
+        width: 100%;
+        height: 20vh;
     }
 }

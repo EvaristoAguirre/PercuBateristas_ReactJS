@@ -127,8 +127,9 @@
     transition: .4seg all linear;
 }
 
-.btn {
-    visibility: none;
+.btn-hamburguesa-icono {
+    /* visibility: none; */
+    display: none;
 }
 
 
@@ -147,7 +148,7 @@
    
     .btn-inicio, .btn-crear{
         width: 60%;
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
 
     .nav-logo-texto{
@@ -183,19 +184,18 @@
         display: flex;
         justify-content: flex-end;
         
-        font-size: 2rem;
-        visibility: visible;
-        /* opacity: 1;
-        background-color: #b95c40; */
+       
     }
 
     .btn-hamburguesa-icono {
-        visibility: visible;
+        display: block;
         opacity: 1;
         color: var(--color-neutro-darkness);
+        display: block;
+        font-size: 2rem;
     }
     
-
+    
 }
 
 
@@ -212,31 +212,32 @@
 
 @media only screen and (min-width: 576px ) and (max-width: 767px) {
     .navbar {
-        background-color: rgb(226, 47, 246);
+        background-color: rgb(132, 26, 143);
 
-}
+    }
+
+    .nav-logueo {
+        width: 45%;
+    }
+
 }
 
 /*----------------- X Small devices -------------------------*/
 
 
-/* @media only screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
     .navbar {
         background-color: rgb(80, 94, 219);
     }
 
-    .nav-logo-texto{
-        font-size: 1.5rem;
+    .nav-logueo {
+        width: 50%;
+        
     }
 
-    .nav-lista{
-        display: none;
-
+    .btn-inicio, .btn-crear {
+        /* width: 55%; */
+        font-size: 1rem;
     }
 
-    .btn-hamburguesa {
-        display: inline;
-        justify-content: center;
-    }
-
-} */
+}
